@@ -51,16 +51,19 @@ font-family: 'Poppins', sans-serif;
   color: rgb(3, 163, 231);
 }
 .icon{
-  background-color: rgba(5, 5, 5, 0.995);
+
   padding: 5px;
 }
 .ctitle{
-  background-color: white;
+ 
+  font-family: 'Poppins', sans-serif;
   padding: 5px;
 }
 .inhalt{
-  background-color: rgba(205, 249, 255, 0.437);
+ 
   padding: 5px;
+  
+  font-family: 'serif', sans-serif;
 }
 #foot{
   
@@ -73,16 +76,25 @@ font-family: 'Poppins', sans-serif;
   display: grid ;
   padding: 10px;
   grid-template-columns: auto auto;
-  background-color:rgba(3, 163, 231, 0.431);
+  background-color:rgba(3, 163, 231, 0.287);
+}
+
+.task:hover{
+  background-color:rgba(0, 0, 0, 0.998);
+  color: white;
 }
 #con{
   display: grid;
   grid-template-columns: auto auto;
 }
 
-#willcom{
-  padding: 15px;
+#willcom>div{
+  width: 80%;
+  margin-left:10% ;
+  padding-left: 30px;
+  padding-right: 30px;
   font-family: 'Poppins', sans-serif;
+
 
 }
 
