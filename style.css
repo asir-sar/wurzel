@@ -32,7 +32,7 @@ body {
   background:none;
 }
 .subroot{
-  margin-top: 20px;
+    margin-top: 10vh;
 }
 #main>#head>h1{
   margin: 5vh;
@@ -51,42 +51,57 @@ font-family: 'Poppins', sans-serif;
   color: rgb(3, 163, 231);
 }
 .icon{
-  background-color: gray;
+  background-color: rgba(5, 5, 5, 0.995);
+  padding: 5px;
 }
 .ctitle{
   background-color: white;
+  padding: 5px;
 }
 .inhalt{
-  background-color: blanchedalmond;
+  background-color: rgba(205, 249, 255, 0.437);
+  padding: 5px;
 }
 #foot{
-  position: relative;
-  bottom: 0px;
+  
   color: white;
   padding: 10px;
   width: 100%;
   background-color:rgb(3, 163, 231);
 }
 .task{
+  display: grid ;
+  padding: 10px;
+  grid-template-columns: auto auto;
   background-color:rgba(3, 163, 231, 0.431);
 }
+#con{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#willcom{
+  padding: 15px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+
 
 /* Mobile devices (up to 767px) */
 @media (max-width: 767px) {
   /* Your mobile-specific styles here */
   #con{
-    display: grid;
+
     grid-template-columns: auto;
     column-gap: 10px;
     row-gap: 10px;
     width: 90%;
     margin-left: 5%;
   }
-  .task{
-    padding: 10px;
-    display: grid ;
-    grid-template-columns: auto auto;
-  }
+
   .inhalt{
     grid-row: 2;
     grid-column: span 2;
@@ -107,18 +122,14 @@ font-family: 'Poppins', sans-serif;
 @media (min-width: 768px) and (max-width: 991px) {
   /* Your tablet-specific styles here */
   #con{
-    display: grid;
+
     grid-template-columns: auto;
     column-gap: 10px;
     row-gap: 10px;
     width: 80%;
     margin-left: 10%;
   }
-  .task{
-    padding: 10px;
-    display: grid ;
-    grid-template-columns: auto auto;
-  }
+
   .inhalt{
     grid-row: 2;
     grid-column: span 2;
@@ -129,18 +140,13 @@ font-family: 'Poppins', sans-serif;
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Your desktop-specific styles here */
   #con{
-    display: grid;
-    grid-template-columns: auto auto;
+
     column-gap: 10px;
     row-gap: 10px;
     width: 80%;
     margin-left: 10%;
   }
-  .task{
-    padding: 10px;
-    display: grid ;
-    grid-template-columns: auto auto;
-  }
+
   .inhalt{
     grid-row: 2;
     grid-column: span 2;
@@ -152,18 +158,13 @@ font-family: 'Poppins', sans-serif;
 @media (min-width: 1200px) {
   /* Your large desktop-specific styles here */
   #con{
-    display: grid;
-    grid-template-columns: auto auto;
+
     column-gap: 10px;
     row-gap: 10px;
     width: 90%;
     margin-left: 5%;
   }
-  .task{
-    padding: 10px;
-    display: grid ;
-    grid-template-columns: auto auto;
-  }
+
   .inhalt{
     grid-row: 2;
     grid-column: span 2;
