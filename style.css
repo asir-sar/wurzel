@@ -97,9 +97,13 @@ font-family: 'Poppins', sans-serif;
   font-family: 'Poppins', sans-serif;
   font-size: large;
 }
+
 #logo{
+
   margin-left: 20px;
   margin-top: 20px;
+  width:210px;
+  height:70px;
 }
 
 
@@ -108,6 +112,10 @@ font-family: 'Poppins', sans-serif;
 /* Mobile devices (up to 767px) */
 @media (max-width: 767px) {
   /* Your mobile-specific styles here */
+  #logo{
+    width: 120px;
+    height: 40px;
+  }
   #con{
 
     grid-template-columns: auto;
