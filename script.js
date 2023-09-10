@@ -1,4 +1,6 @@
 // toggle .de ,.com 
+let t = document.getElementById("logo")
+t.src="./itw1.png"
 let cnt =1
 setInterval(function(){
     let t = document.getElementById("logo")
