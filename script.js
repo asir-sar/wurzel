@@ -1,13 +1,9 @@
 // toggle .de ,.com 
+let cnt =1
 setInterval(function(){
-    let t = document.getElementById("topdomain")
-    let tx = t.innerHTML
-    if(tx!=".de"){
-        t.innerHTML=".de"
-        console.log(tx+"#.de")
-    }
-    if(tx!=".com"){
-        t.innerHTML=".com"
-        console.log(tx+"#.com")
-    }
+    let t = document.getElementById("logo")
+    let src = t.src
+    cnt++
+    if(cnt>2)cnt=1
+        t.src="./itw"+cnt+".png"
 },2000)
