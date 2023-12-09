@@ -131,8 +131,7 @@ body{
 
 .div2>div{
     width: 90%;
-    margin-left: 5%;
-    margin-top: 2vh;
+    margin: 2vh 5%;
 }
 #div21{
     display: grid;
@@ -149,7 +148,7 @@ body{
 
 #div212{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: auto auto auto auto auto;
     background-color: rgb(3, 95, 161);
     box-shadow: 5px 5px 20px rgb(139, 139, 139);
     color: white;
@@ -170,10 +169,10 @@ body{
     width: 100px;
 }
 
+.div22>div{
+    width: 80%;
+    display: block;
 
-
-#div22{
-    padding-bottom: 4vh;
 }
 
 
@@ -262,6 +261,15 @@ body{
     text-align: center;
 }
 @media (max-width: 767px) {
+
+    .subroot{
+        width: 98%;
+        margin: 0px;
+        margin-left: 1%;
+        background-color: white;
+        opacity: 0.8;
+        box-shadow: 5px 5px 20px rgb(235, 233, 233);
+    }
     .div0,.div1{
         visibility: hidden;
     }
@@ -273,6 +281,38 @@ body{
         background-color: rgb(3, 95, 161);
         height: 100%;
     }
+    .div2>div{
+        width: 98%;
+        margin: 0px 1%;
+        height: 25vh;
+        overflow: hidden;
+    }
+    #div212>div{
+        font-size: 8px;
+    }
+    #div212>div>img{
+        width: 50px;
+    }
+    #div22{
+        
+        display: inline-block;
+        min-height: 40vh;
+        width: 94%;
+        margin: 3vh 3%;
+       
+    }
+    .div5>div{
+        display: inline-block;
+        width: 90%;
+        height: auto;
+        margin: 5%;
+        overflow: hidden;
+        background-color: rgb(225, 224, 224);
+    }
+    .div5>div>div{
+        padding: 5px;
+    }
+
 }
 /* Tablets and small desktop screens (768px to 991px) */
 @media (min-width: 768px) and (max-width: 991px) {}
