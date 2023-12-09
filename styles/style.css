@@ -1,0 +1,284 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(232, 231, 231);
+    letter-spacing: 0.038em;
+    font-family: helvetica,inter;
+}
+#root{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.divm{
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    z-index: 10;
+    visibility: hidden;
+}
+.divm0{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.divm0>div{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 12px;
+}
+.divm0>div>span{
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 0px;
+    display: inline-block;
+
+}
+.divm0>div>span:hover{
+    height: 100%;
+    color: rgb(3, 95, 161);
+    background-color:rgba(107, 108, 109, 0.127);
+    scale: 1.1;
+}
+
+.divm1{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-row-gap: 2px;
+
+}
+.divm1>div{
+    background-color: rgb(3, 95, 161);
+    text-align: center;
+    min-height: 40px;
+    padding-top: 10px;
+}
+
+.subroot{
+    width: 90%;
+    margin: 0px;
+    margin-left: 5%;
+    background-color: white;
+    opacity: 0.8;
+    box-shadow: 5px 5px 20px rgb(235, 233, 233);
+}
+
+
+.div0{
+    height: 10vh;
+    display: grid;
+    grid-template-rows: auto auto;
+    box-shadow: 5px 5px 20px rgb(235, 233, 233);
+}
+.div01{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.div01>div{
+  
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    
+}
+.div011{
+    padding-left: 20px;
+}
+
+
+.div11{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 2px;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 0px 0px 10px 10px;
+        overflow: hidden;
+        border-bottom: 1px solid rgb(3, 95, 161);
+
+}
+.div1{
+    background-color: inherit;
+}
+
+.div11>div{
+    background-color:rgb(3, 95, 161);
+    text-align: center;
+}
+.div11>div>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    line-height: 200%;
+}
+
+.div11>div>a:hover{
+   
+    transition-duration:200ms;
+    transition-property:background-color,color;
+    background-color: rgb(5, 43, 70);
+}
+
+
+
+
+
+.div2{
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: 4vh;
+}
+
+.div2>div{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2vh;
+}
+#div21{
+    display: grid;
+    grid-template-rows: auto auto;
+
+}
+#div21>div{
+    margin-top: 10px;
+}
+#div211{
+    text-align: center;
+    opacity: 0.2;
+}
+
+#div212{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    background-color: rgb(3, 95, 161);
+    box-shadow: 5px 5px 20px rgb(139, 139, 139);
+    color: white;
+    padding: 5px;
+    min-height: 20vh;
+}
+#div212>div{
+    text-align: center;
+    padding: 5px;
+}
+#div212>div:hover {
+    transition-duration: 200ms;
+    background-color: rgba(1, 69, 118, 0.578);
+    transition-property: all;
+    transform: scale(1.1,1.1);
+}
+#div212>div>img{
+    width: 100px;
+}
+
+
+
+#div22{
+    padding-bottom: 4vh;
+}
+
+
+.div5{
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: 6vh;
+    padding-top: 4vh;
+}
+.div5>div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 80%;
+    margin-left: 10%;
+}
+#div512{
+    background-color: rgb(3, 95, 161);
+    padding: 10px;
+    color: white;
+}
+#div521{
+    padding-top: 10vh;
+}
+#div521>h5{
+    background-color: rgb(3, 95, 161);
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    line-height: 20px;
+    display: inline;
+}
+
+
+.div6{
+    background-color: rgb(3, 95, 161);
+}
+.div7{
+    background-color:    rgb(3, 95, 161);
+    ;
+}
+.div8{
+    background-color: rgb(3, 95, 161);
+}
+.div9{
+    background-color:rgb(3, 95, 161);
+}
+
+
+
+.div10{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+#div101{
+    background-color: rgb(248, 248, 248);
+    padding: 5px;
+    padding-top: 40px;
+
+}
+#div1011>a{
+    margin-top: 10px;
+    position: absolute;
+    display: inline-block;
+    width: 10%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0.101em;
+    font-weight: 700;
+}
+#div102{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 5px;
+   
+    padding: 5px 5px;
+}
+#div102>div{
+    background-color: rgb(3, 95, 161);
+    height: 40vh;
+    border-radius: 5px;
+}
+#div103{
+    background-color: rgb(3, 95, 161);
+    text-align: center;
+}
+@media (max-width: 767px) {
+    .div0,.div1{
+        visibility: hidden;
+    }
+    .divm{
+        visibility: visible;
+    }
+    .divm1{
+        display: block;
+        background-color: rgb(3, 95, 161);
+        height: 100%;
+    }
+}
+/* Tablets and small desktop screens (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* Standard desktop screens (992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Larger desktop screens (1200px and above) */
+@media (min-width: 1200px) {}
