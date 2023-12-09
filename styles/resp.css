@@ -1,0 +1,13 @@
+
+/* Mobile devices (up to 767px) */
+@media (max-width: 767px) {
+    .div0{
+        visibility: hidden;
+        background-color: green;
+    }
+    .divm{
+        visibility: visible;
+        background-color: gold;
+    }
+}
+
