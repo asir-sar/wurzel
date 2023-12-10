@@ -1,7 +1,9 @@
-body{
-    margin:0;
-    padding:0;
-    background-color: rgb(232, 231, 231);
+
+body,html{
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    overflow-x: hidden;
     letter-spacing: 0.038em;
     font-family: helvetica,inter;
 }
@@ -9,48 +11,7 @@ body{
     padding: 0px;
     margin: 0px;
     width: 100%;
-}
-.divm{
-    width: 100%;
-    display: inline-block;
-    position: absolute;
-    z-index: 10;
-    visibility: hidden;
-}
-.divm0{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-}
-.divm0>div{
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    padding-top: 12px;
-}
-.divm0>div>span{
-    font-weight: bold;
-    font-size: 50px;
-    padding-top: 0px;
-    display: inline-block;
-
-}
-.divm0>div>span:hover{
-    height: 100%;
-    color: rgb(3, 95, 161);
-    background-color:rgba(107, 108, 109, 0.127);
-    scale: 1.1;
-}
-
-.divm1{
-    display: grid;
-    grid-template-rows: auto auto auto auto auto;
-    grid-row-gap: 2px;
-
-}
-.divm1>div{
-    background-color: rgb(3, 95, 161);
-    text-align: center;
-    min-height: 40px;
-    padding-top: 10px;
+    
 }
 
 .subroot{
@@ -59,7 +20,7 @@ body{
     margin-left: 5%;
     background-color: white;
     opacity: 0.8;
-    box-shadow: 5px 5px 20px rgb(235, 233, 233);
+    box-shadow: 5px 0px 20px rgb(196, 195, 195);
 }
 
 
@@ -264,11 +225,11 @@ body{
 
     .subroot{
         width: 98%;
-        margin: 0px;
-        margin-left: 1%;
+       
+        margin:2vh 1%;
         background-color: white;
         opacity: 0.8;
-        box-shadow: 5px 5px 20px rgb(235, 233, 233);
+        box-shadow: 5px 0px 50px rgb(187, 186, 186);
     }
     .div0,.div1{
         visibility: hidden;
