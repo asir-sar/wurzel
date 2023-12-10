@@ -253,7 +253,7 @@ body{
 }
 #div102>div{
     background-color: rgb(3, 95, 161);
-    height: 40vh;
+    height: 30vh;
     border-radius: 5px;
 }
 #div103{
@@ -296,7 +296,7 @@ body{
     #div22{
         
         display: inline-block;
-        min-height: 40vh;
+        min-height: 50vh;
         width: 94%;
         margin: 3vh 3%;
        
@@ -311,6 +311,9 @@ body{
     }
     .div5>div>div{
         padding: 5px;
+    }
+    #div102>div{
+        height: 15vh;
     }
 
 }
