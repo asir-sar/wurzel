@@ -1,4 +1,4 @@
-//menue on click open and close the menuebar
+//menue on click open and close the menuebar smart phone
 let mspan = document.getElementById("mspan")
 let m1 = document.getElementById("m1")
 function mspan1(){

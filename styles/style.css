@@ -20,64 +20,7 @@ body,html{
     margin-left: 5%;
     background-color: white;
     opacity: 0.8;
-    box-shadow: 5px 0px 20px rgb(196, 195, 195);
-}
-
-
-.div0{
-    height: 10vh;
-    display: grid;
-    grid-template-rows: auto auto;
-    box-shadow: 5px 5px 20px rgb(235, 233, 233);
-}
-.div01{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-}
-.div01>div{
-  
-    padding-top: 10px;
-    display: grid;
-    grid-template-columns: 15% 85%;
     
-}
-.div011{
-    padding-left: 20px;
-}
-
-
-.div11{
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    grid-column-gap: 2px;
-    width: 80%;
-    margin-left: 10%;
-    border-radius: 0px 0px 10px 10px;
-        overflow: hidden;
-        border-bottom: 1px solid rgb(3, 95, 161);
-
-}
-.div1{
-    background-color: inherit;
-}
-
-.div11>div{
-    background-color:rgb(3, 95, 161);
-    text-align: center;
-}
-.div11>div>a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    display: block;
-    line-height: 200%;
-}
-
-.div11>div>a:hover{
-   
-    transition-duration:200ms;
-    transition-property:background-color,color;
-    background-color: rgb(5, 43, 70);
 }
 
 
