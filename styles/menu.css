@@ -25,6 +25,10 @@
 .divm0>div>span:hover{
     height: 100%;
     color: rgb(3, 95, 161);
+<<<<<<< HEAD
+=======
+    background-color:rgba(107, 108, 109, 0.127);
+>>>>>>> 15595421a42e41cc07cc5a80643ce557ac24b758
     scale: 1;
 }
 
