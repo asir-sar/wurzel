@@ -12,7 +12,6 @@
     grid-template-columns: auto auto auto auto;
 }
 .divm0>div{
-    background-color: rgb(255, 255, 255);
     text-align: center;
     padding-top: 12px;
 }
@@ -26,8 +25,7 @@
 .divm0>div>span:hover{
     height: 100%;
     color: rgb(3, 95, 161);
-    background-color:rgba(107, 108, 109, 0.127);
-    scale: 2.5;
+    scale: 1;
 }
 
 .divm1{
