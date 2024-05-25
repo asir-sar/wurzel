@@ -12,12 +12,17 @@ body,html{
     width: 100%;
 }
 .div2>h1{
-    color: rgb(25, 108, 163);
+    color: rgb(3, 95, 161);
 }
 .div2>h3{
-    color: rgb(94, 92, 92);
+    
     background-color: rgb(240, 241, 241);
     padding: 10px;
+    color: rgb(3, 95, 161);
+}
+.div2>p{
+    font-weight: bold;
+    color: rgb(95, 101, 102);
 }
 .subroot{
     width: 90%;

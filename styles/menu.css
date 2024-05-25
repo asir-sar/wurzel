@@ -127,7 +127,7 @@
    
     transition-duration:200ms;
     transition-property:background-color,color;
-    color: rgba(0, 140, 255);
+    color: rgb(3, 95, 161);
 
 }
 

@@ -21,7 +21,7 @@ body,html{
  
 }
 .div2>h1{
-    background-color: rgb(21, 126, 175);
+    background-color: rgb(3, 95, 161);
     padding: 25px;
     color: white;
     display: inline-block;
@@ -34,7 +34,7 @@ body,html{
 #uld0>li{
     font-weight: bold;
     padding: 5px;
-    color: rgb(21, 126, 175);
+    color: rgb(3, 95, 161);
     
 }
 .uld1{
