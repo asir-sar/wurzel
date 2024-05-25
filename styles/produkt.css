@@ -20,8 +20,29 @@ body,html{
     opacity: 0.8;
  
 }
-
-
+.div2>h1{
+    background-color: rgb(21, 126, 175);
+    padding: 25px;
+    color: white;
+    display: inline-block;
+}
+.div2>#uld0{
+    background-color: rgb(241, 241, 241);
+    display: inline-block;
+    padding: 50px;
+}
+#uld0>li{
+    font-weight: bold;
+    padding: 5px;
+    color: rgb(21, 126, 175);
+    
+}
+.uld1{
+    color: rgb(59, 59, 59);
+}
+.uld2{
+    color: rgb(112, 110, 110);
+}
 .div10 {
     background-color: #333;
     color: #fff;
