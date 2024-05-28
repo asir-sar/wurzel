@@ -5,7 +5,8 @@ body,html{
     min-width: 100%;
     overflow-x: hidden;
     letter-spacing: 0.038em;
-    font-family: helvetica,inter;
+    font-family: system-ui;
+    line-height: 1.6;
 }
 #root{
     padding: 0px;
