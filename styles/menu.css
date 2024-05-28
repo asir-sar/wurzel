@@ -106,9 +106,10 @@
     overflow: hidden;
     width: 40%;
     padding-left: 30%;
+
 }
 .div1{
-    background-color: inherit;
+   background-color:rgb(3, 95, 161);
 }
 
 .div11>div{
@@ -117,17 +118,18 @@
 }
 .div11>div>a{
     text-decoration: none;
-    color: black;
+    color: rgb(228, 226, 226);
     font-weight: bold;
     display: block;
     line-height: 200%;
 }
 
 .div11>div>a:hover{
-   
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
     transition-duration:200ms;
     transition-property:background-color,color;
-    color: rgb(3, 95, 161);
+    
 
 }
 
