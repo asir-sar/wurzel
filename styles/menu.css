@@ -31,22 +31,20 @@
 .divm1{
     display: grid;
     grid-template-rows: auto auto auto auto auto;
-    grid-row-gap: 2px;
+    grid-row-gap: 1px;
 
 }
 .divm1>div{
     background-color: rgb(3, 95, 161);
     text-align: center;
-    min-height: 40px;
-    padding-top: 10px;
+    padding: 20px;
+  
+    
 }
 .divm1>div>a{
     text-decoration: none;
     color: white;
-}
-.divm1>div>a:hover{
-    font-weight: bold;
-    transform: scale();
+    border-bottom: 1px solid white;
 }
 
 @media (max-width: 767px) {
