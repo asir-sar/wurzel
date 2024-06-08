@@ -68,16 +68,15 @@
         background-color: rgb(3, 95, 161);
         height: 100%;
     }
-    #mbar{
-        padding-left: 10%;
+    .divm04>#mbar{
+    
+        height: 80%;
     }
-    #mbar>label>div{
-        max-height: 4px;
-        max-width: 30%;
-        background-color: rgb(3, 95, 161);
-        padding: 5px;
-        margin-top: 5px;
-        border-radius: 5px;
+    #mbar>span{
+        display: block;
+    }
+    #mclose{
+        visibility: hidden;
     }
     
 }

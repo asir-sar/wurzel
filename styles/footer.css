@@ -18,7 +18,7 @@
 }
 .divf2{
     display: grid;
-    grid-template-columns: auto auto auto 30%;
+    grid-template-columns: auto auto auto;
     margin: 20px 20px 20px;
     padding-top: 5vh;
     padding-bottom: 5vh;
@@ -33,28 +33,19 @@
 .divf2>div{
     text-align: center;
 }
-
-.divf1>div>p>a{
-    margin-left: 10px;
-    text-decoration: none;
-    font-size: small;
-    display: inline;
-    color: rgb(3, 95, 161);
+.divf12>ul{
+    list-style: none;
 }
-.divf1>div>p>a:hover{
+.divf12>table>tr>td>a{
+    text-decoration: none;
     font-weight: bold;
 }
+
 .divf11{
     opacity: 0.3;
     border-radius: 20px;
 }
-.divf24{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-}
-.divf24>div:hover img {
-    scale: 1.3;
-}
+
 
 @media (max-width: 767px) {
     .divf{
@@ -88,11 +79,6 @@
         font-size: 8px;
         margin: 0px;
     }
-    .divf24>div>a>img{
-        width: 12px;
-        height: 12px;
-    }
-  
 
 }
 
