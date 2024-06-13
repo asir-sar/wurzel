@@ -50,12 +50,9 @@
 @media (max-width: 767px) {
 
     .subroot{
-        width: 98%;
+        width: 100%;
         margin: 0px;
-        margin-left: 1%;
-        background-color: white;
         opacity: 0.8;
-        box-shadow: 5px 5px 20px rgb(235, 233, 233);
     }
     .div0,.div1{
         visibility: hidden;
@@ -82,38 +79,13 @@
 }
 
 
-
-.div0{
-
-    display: grid;
-    grid-template-rows: auto auto;
-    border-bottom: 1px solid rgba(0, 162, 255, 0.144);
-}
-.div01{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-}
-.div01>div{
-  
-    padding-top: 10px;
-    display: grid;
-    grid-template-columns: 15% 85%;
-    
-}
-.div011{
-    padding-left: 20px;
-    
-}
-
-
-
 .div11{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     grid-column-gap: 2px;
     overflow: hidden;
-    width: 40%;
-    padding-left: 30%;
+    width: 50%;
+    padding-left: 25%;
 
 }
 .div1{
