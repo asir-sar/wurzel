@@ -1,293 +1,652 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/menu.css">
-    <link rel="stylesheet" href="./styles/footer.css">
-    <link rel="icon" href="./img/logos/itwurzel-logo.png">
-    <title>ITWRUZEL</title>
+
+    <meta charset="utf-8">
+
+    <title>IT Wurzel</title>
+
+    <meta name="description" content="Description">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+        
+    <link rel="icon" href="assets/img/favicon.png" type="image/x-icon"> 
+
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
+<link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preload" href="assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/montserrat-v25-latin/montserrat-v25-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/montserrat-v25-latin/montserrat-v25-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="preload" href="assets/fonts/material-icons/material-icons.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/material-icons/material-icons-outlined.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+	canvas{ display: block; vertical-align: bottom; } /* ---- particles.js container ---- */ 
+	#particles-js{ position:absolute; width: 100%; height: 100%;  background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } 
+	/* ---- stats.js ---- */ .count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #196c9c; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } 
+	.js-count-particles{ font-size: 1.1em; } 
+	#stats, .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } 
+	#stats{ border-radius: 3px 3px 0 0; overflow: hidden; } 
+	.count-particles{ border-radius: 0 0 3px 3px; }
+</style>
+
 </head>
+
 <body>
-    <div id="root">
-        <div class="divm">
-            <div class="divm0">
-               <div class="divm01">
-                <a href="">
-                    <img src="./img/logos/itwurzel-logo.png" alt="" srcset="" width="60">
-                </a>
-               </div>
-               <div class="divm02">
-                
-               </div>
-               <div class="divm03"></div>
-               <div class="divm04">
-                <div class="divm04">
-                    <div id="mbar">
-                       <span id="mbtn">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="3em" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2"><path d="M5 5L19 19"><animate fill="freeze" attributeName="d" dur="0.4s" values="M5 5L19 19;M5 5L19 5"/></path><path d="M12 12H12" opacity="0"><animate fill="freeze" attributeName="d" begin="0.2s" dur="0.4s" values="M12 12H12;M5 12H19"/><set attributeName="opacity" begin="0.2s" to="1"/></path><path d="M5 19L19 5"><animate fill="freeze" attributeName="d" dur="0.4s" values="M5 19L19 5;M5 19L19 19"/></path></g></svg>
-                       </span>
-                    
-                    </div>
-                </div>
-               </div>
-            </div>
-            <div class="divm1" id="m1">
-                
-          </div>
-        </div>
-       <div class="subroot div1" id="div1">
-          <div class="div11">
-                <div class="div111" ><a href="./index.html">Home</a></div>
-                <div class="div112"><a href="./pages/produkt.html">Produkte</a></div>
-                <div class="div113"><a href="./pages/dienstleistung.html">Diestleistungen</a></div>
-                <div class="div113"><a href="./pages/shop.html">Shop</a></div>
-                <div class="div114"><a href="./pages/about.html">About us</a></div>
-          </div>
-       </div>
-       <div class="subroot div2">
-                <div id="div21">
-                    <div id="div211" style="min-height: 10vh;">
-                        
-                    </div>
-                    <div id="div212">
-                        <div id="div2121" onclick="stext(1)"><img src="./img/svgs/arktiktur.svg"  srcset=""><br> ARKTECKTUR</div>
-                        <div id="div2122" onclick="stext(2)"><img src="./img/svgs/consulting1.svg"  alt="" srcset=""><br> CONSULTING</div>
-                        <div id="div2125" onclick="stext(5)"><img src="./img/svgs/service.svg"  alt="" srcset=""><br> MANAGED SERVICES</div>
-                        <div id="div2124" onclick="stext(4)"><img src="./img/svgs/kritis.svg"  alt="" srcset=""><br> KRITIS</div>
-                        <div id="div2125" onclick="stext(5)"><img src="./img/svgs/hardsoft.svg"  alt="" srcset=""><br> HARD SOFTWARE</div>
-                    </div>
-                </div>
-            <div id="div22">
-                <div id="div221"></div>
-                <div id="div222"></div>
-            </div>
-       </div>
 
-       <div class="subroot div5">
-        <div id="div51">
-            <div id="div511"><img src="./img/svgs/Frame-9.svg" alt="" srcset="" width="80%"></div>
-            <div id="div512">
-                <h5>WAS WIR BIETEN!</h5>
-                <p>
-                    Neue Wege, das bedeutet in der Informationstechnologie mehr als nur einen Schritt voraus zu sein. Es beutet vielmehr Grenzen zu sprengen um zusammen mit Ihnen Individuelle Lösungen zu finden die Ihnen neben Arbeitserleichterungen auch Kontinuität im Geschäftsalltag bringen.
-                    Gewachsen mit den Anforderungen von Kunden und Partnern bieten wir Ihnen ein breites Spektrum an IT-Lösungen auf technologisch modernstem Niveau. So machen wir aus Ihrem IT Problem den Problemlöser-IT und das bei maximaler Kostenersparnis, erhöhter Transparenz, verkürzten Reaktionszeiten und optimierten Prozessen. Mit ideenreichen IT-Lösungen konnten wir bis heute zahlreiche namhafte Unternehmen effizient und wirtschaftlich sinnvoll in eine erfolgreiche Zukunft begleiten. Reihen Sie sich ein unter Kliniken, Kommunalverwaltungen, diversen Energieversorgern, dem Bayerischen Roten Kreuz und vielen weiteren kleineren regionalen Unternehmen.
-                </p>
-            </div>
-        </div>
-        <div id="div52">
-            <div id="div521">
-                <h5> &nbsp; &nbsp; WIR WISSEN, WAS SIE BRAUCHEN ! &nbsp; &nbsp;</h5>
-                <p>
-                    Optimieren Sie Ihre IT-Landschaft jetzt mit uns zusammen!
-                    Wir freuen uns auf Ihre Herausforderung.
-                </p>
-                <ul>
-                    <li>Optimierung von Arbeitsvorgängen</li>
-                    <li>maximale Kostenersparnis</li>
-                    <li>erhöhte Transparenz</li>
-                    <li>verkürzte Reaktionszeiten</li>
-                    <li>optimierte Prozesse</li>
-                </ul>
-            </div>
-            <div id="div522" >
-                <img src="./img/svgs/kluster2.svg" alt="" srcset="" width="400px" height="400px">
-            </div>
-        </div>
-       </div>
-       
-       
-       <div class="subroot divf">
-        <div class="divf0">
-            
-        </div>
-        <div class="divf1" >
-            <div class="divf11">
-                <span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 32 32"><path fill="currentColor" d="M28 6H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h24a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2m-2.2 2L16 14.78L6.2 8ZM4 24V8.91l11.43 7.91a1 1 0 0 0 1.14 0L28 8.91V24Z"/></svg>
-                </span>
-                
-                <h4>Send us an Email</h4>
-                <br>
-                <div class="divf111">
-                   
-                    <table id="formTable">
-                        <tr><td>Vorname</td><td><input type="text" name="name" id=""></td></tr>
-                        <tr><td>Nachname</td><td><input type="text" name="lastName" id=""></td></tr>
-                        <tr><td>E-mail</td><td><input type="text" name="email" id=""></td></tr>
-                        <tr>
-                            <td>Inhalt</td>
-                            <td>
-                                <textarea name="inhalt" id="" cols="30" rows="10"></textarea>
-                            </td>
-                        </tr>
-                        <tr><td></td><td><input type="submit" name="submit" id="submit" value="Daten Absenden"></td></tr>
-                    </table>
+	<main class="main">
+		
+		<div class="main-inner">
+
+			<!-- Begin mobile main menu -->
+<nav class="mmm">
+    <div class="mmm-content">
+        <ul class="mmm-list">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="about-us.html">Über uns</a>
+            </li>
+            <li>
+                <a href="services.html">Dienstleistungen</a>
+            </li>
+            <li>
+                <a href="typography.html">Cloud</a>
+            </li>
+            <li>
+                <a href="tabs-and-accordions.html">Tabs & Accordions</a>
+            </li>
+            <li>
+                <a href="news.html">News</a>
+            </li>
+            <li>
+                <a href="contacts.html">Contacts</a>
+            </li>
+        </ul>
+    </div>
+</nav><!-- End mobile main menu -->
+
+<header class="header header-minimal">
+    <nav class="header-fixed">
+        <div class="container">
+            <div class="row flex-nowrap align-items-center justify-content-between">
+                <div class="col-auto header-fixed-col logo-wrapper">
+                    <a href="index.html" class="logo" title="itwurzel">
+                        <img src="assets/img/mycompany.png"  alt="My logo">	
+                    </a>
+                </div>
+                <div class="col-auto col-xl col-static header-fixed-col d-none d-xl-block">
+                    <div class="row flex-nowrap align-items-center justify-content-end">
+                        <div class="col header-fixed-col d-none d-xl-block col-static">
+                            <!-- Begin main menu -->
+<nav class="main-mnu">
+    <ul class="main-mnu-list">
+        <li>
+            <a href="index.html" data-title="Home">
+                <span>Home</span>
+            </a>
+        </li>
+        <li>
+            <a href="about-us.html" data-title="About us">
+                <span>Über uns</span>
+            </a>
+        </li>
+        <li>
+            <a href="services.html" data-title="Services">
+                <span>Dienstleistungen</span>
+            </a>
+        </li>
+        <li>
+            <a href="typography.html" data-title="Typography">
+                <span>Consulting</span>
+            </a>
+        </li>
+        <li>
+            <a href="tabs-and-accordions.html" data-title="Tabs & Accordions">
+                <span>Cloud</span>
+            </a>
+        </li>
+        <li>
+            <a href="news.html" data-title="News">
+                <span>News</span>
+            </a>
+        </li>
+        <li>
+            <a href="contacts.html" data-title="Contacts">
+                <span>Contacts</span>
+            </a>
+        </li>
+    </ul>
+</nav><!-- End main menu -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto d-block d-xl-none header-fixed-col">
+                    <div class="main-mnu-btn">
+                        <span class="bar bar-1"></span>
+                        <span class="bar bar-2"></span>
+                        <span class="bar bar-3"></span>
+                        <span class="bar bar-4"></span>
+                    </div>
                 </div>
             </div>
-            <div class="divf12">
-              
-                    <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M3 19a2 2 0 1 0 4 0a2 2 0 1 0-4 0m14 0a2 2 0 1 0 4 0a2 2 0 1 0-4 0m-8-5a3 3 0 1 0 6 0a3 3 0 1 0-6 0m3-7v4m-5.3 6.8l2.8-2m7.8 2l-2.8-2"/></svg>
-                    </span>
-                    <h4>Social Media  </h4>
-                    <br>
-                    <br>
-               
-                <table>
-                    <tr>
-                        <td>
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 14 14"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M.5 12.5v-11a1 1 0 0 1 1-1h11a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1h-3V8.76h.71a.61.61 0 0 0 .61-.61v-.77a.611.611 0 0 0-.61-.61h-.67v-.94c0-.84.38-.84.76-.84h.49a.55.55 0 0 0 .43-.18a.58.58 0 0 0 .18-.43v-.74a.618.618 0 0 0-.6-.64H9.65a2.32 2.32 0 0 0-2.39 2.6v1.17h-.64a.61.61 0 0 0-.62.61v.77a.61.61 0 0 0 .62.61h.64v4.74H1.5a1 1 0 0 1-1-1"/></svg>
-                            </span>
-                        </td>
-                        <td> <a href="">Facebook</a></td>
-                    </tr>
-                    <tr>
-                        <td>
-                           <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 15 15"><path fill="none" stroke="currentColor" d="M4.5 6v5m6 0V8.5a2 2 0 1 0-4 0V11V6M4 4.5h1M1.5.5h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-12a1 1 0 0 1-1-1v-12a1 1 0 0 1 1-1Z"/></svg>
-                           </span>
-                        </td>
-                        <td><a href="https://de.linkedin.com/company/itwurzel">Linkedin</a></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span>
-                            
-                            <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" color="currentColor"><path d="M10 20.568c-3.429 1.157-6.286 0-8-3.568"/><path d="M10 22v-3.242c0-.598.184-1.118.48-1.588c.204-.322.064-.78-.303-.88C7.134 15.452 5 14.107 5 9.645c0-1.16.38-2.25 1.048-3.2c.166-.236.25-.354.27-.46c.02-.108-.015-.247-.085-.527c-.283-1.136-.264-2.343.16-3.43c0 0 .877-.287 2.874.96c.456.285.684.428.885.46s.469-.035 1.005-.169A9.5 9.5 0 0 1 13.5 3a9.6 9.6 0 0 1 2.343.28c.536.134.805.2 1.006.169c.2-.032.428-.175.884-.46c1.997-1.247 2.874-.96 2.874-.96c.424 1.087.443 2.294.16 3.43c-.07.28-.104.42-.084.526s.103.225.269.461c.668.95 1.048 2.04 1.048 3.2c0 4.462-2.134 5.807-5.177 6.643c-.367.101-.507.559-.303.88c.296.47.48.99.48 1.589V22"/></g></svg>
-                        
-                            </span>
-                        </td>
-                        <td><a href="https://github.com/itwurzel/customers">Github</a></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" color="currentColor"><path d="M12 20.5c1.81 0 3.545-.179 5.153-.507c2.01-.41 3.014-.614 3.93-1.792c.917-1.179.917-2.532.917-5.238v-1.926c0-2.706 0-4.06-.917-5.238c-.916-1.178-1.92-1.383-3.93-1.792A26 26 0 0 0 12 3.5c-1.81 0-3.545.179-5.153.507c-2.01.41-3.014.614-3.93 1.792C2 6.978 2 8.331 2 11.037v1.926c0 2.706 0 4.06.917 5.238c.916 1.178 1.92 1.383 3.93 1.792c1.608.328 3.343.507 5.153.507"/><path d="M15.962 12.313c-.148.606-.938 1.04-2.517 1.911c-1.718.947-2.577 1.42-3.272 1.237a1.7 1.7 0 0 1-.635-.317C9 14.709 9 13.806 9 12s0-2.709.538-3.144c.182-.147.4-.256.635-.317c.695-.183 1.554.29 3.272 1.237c1.58.87 2.369 1.305 2.517 1.911c.05.206.05.42 0 .626"/></g></svg>
-                            </span>
-                        </td>
-                        <td><a href="https://www.youtube.com/@itwurzel">Youtube</a></td>
-                    </tr>
-                </table>
-            </div>
-            <div class="divf13">
-                
-                <span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 2048 2048"><path fill="currentColor" d="M256 1408v-256H0V0h1536v256h256v512h-128V384H384v896h768v128zm0-384V256h1152V128H128v896zm256 128V896h128v256zm256 0V640h128v512zm256 0V768h128v384zm640-256q79 0 149 30t122 82t83 123t30 149q0 80-30 149t-82 122t-123 83t-149 30q-60 0-117-18t-105-53l-437 436q-19 19-45 19t-45-19t-19-45t19-45l436-437q-35-48-53-105t-18-117q0-79 30-149t82-122t122-83t150-30m0 640q53 0 99-20t82-55t55-81t20-100q0-53-20-99t-55-82t-81-55t-100-20q-53 0-99 20t-82 55t-55 81t-20 100q0 53 20 99t55 82t81 55t100 20"/></svg>
-                </span>
-                <h4>Explore</h4>
-                <br>
-                <br>
-                <table>
-                    <tr><td>
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 32 32"><path fill="currentColor" d="M16.612 2.214a1.01 1.01 0 0 0-1.242 0L1 13.419l1.243 1.572L4 13.621V26a2.004 2.004 0 0 0 2 2h20a2.004 2.004 0 0 0 2-2V13.63L29.757 15L31 13.428ZM18 26h-4v-8h4Zm2 0v-8a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v8H6V12.062l10-7.79l10 7.8V26Z"/></svg>
-                            </span>
-                        </td>
-                        <td>
-                             <a href="">Home</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24"><path fill="currentColor" d="m22.9 21.2l-4.1-4.1c.4-1 .2-2.3-.7-3.1c-.9-.9-2.2-1.1-3.3-.6l1.9 1.9l-1.4 1.4l-2-2c-.5 1.1-.3 2.4.6 3.4c.9.9 2.1 1.1 3.1.7l4.1 4.1c.2.2.5.2.6 0l1-1c.3-.3.3-.6.2-.7M10 12c2.2 0 4-1.8 4-4s-1.8-4-4-4s-4 1.8-4 4s1.8 4 4 4m0-6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2m3 14H2v-3c0-2.7 5.3-4 8-4c.5 0 1.2.1 1.9.2c-.4.5-.6 1.1-.8 1.8c-.4 0-.7-.1-1.1-.1c-3 0-6.1 1.5-6.1 2.1v1.1h7.6c.3.8.9 1.4 1.5 1.9"/></svg>
-                        </span>
-                        </td>
-                        <td>
-                            <a href="">Dienstleistungen</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 14 14"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12.422 13.424h-9.33a1.473 1.473 0 1 1 0-2.947h8.348a.982.982 0 0 0 .982-.982V1.638a.982.982 0 0 0-.982-.982H3.092A1.473 1.473 0 0 0 1.62 2.09v9.821m9.82-1.434v2.947"/><path d="M7.524 8.236a1.702 1.702 0 0 0 1.957-.461l.246-.247a.533.533 0 0 0 .096-.732l-.796-.795a.533.533 0 0 0-.732.095a.533.533 0 0 1-.731.095L6.29 4.92a.533.533 0 0 1 .095-.732a.533.533 0 0 0 .096-.732l-.796-.796a.533.533 0 0 0-.732.096L4.708 3a1.71 1.71 0 0 0-.462 1.957a9.546 9.546 0 0 0 3.278 3.278Z"/></g></svg>
-                
-                            </span>
-                        </td>
-                        <td>
-                            <a href="">Kontake</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24"><path fill="currentColor" d="M11 9h2V7h-2m1 13c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2m-1 15h2v-6h-2z"/></svg>
-                            </span>
-                        </td>
-                        <td>
-                            <a href="">Über uns</a>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <div class="divf14">
-                
-                <span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 14 14"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12.422 13.424h-9.33a1.473 1.473 0 1 1 0-2.947h8.348a.982.982 0 0 0 .982-.982V1.638a.982.982 0 0 0-.982-.982H3.092A1.473 1.473 0 0 0 1.62 2.09v9.821m9.82-1.434v2.947"/><path d="M7.524 8.236a1.702 1.702 0 0 0 1.957-.461l.246-.247a.533.533 0 0 0 .096-.732l-.796-.795a.533.533 0 0 0-.732.095a.533.533 0 0 1-.731.095L6.29 4.92a.533.533 0 0 1 .095-.732a.533.533 0 0 0 .096-.732l-.796-.796a.533.533 0 0 0-.732.096L4.708 3a1.71 1.71 0 0 0-.462 1.957a9.546 9.546 0 0 0 3.278 3.278Z"/></g></svg>
-                </span>
-                <h4>Kontakt</h4>
-                <br>
-                <br>
-                <table>
-                    <tr>
-                        <td>
-                           <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 32 32"><path fill="currentColor" d="M28 6H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h24a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2m-2.2 2L16 14.78L6.2 8ZM4 24V8.91l11.43 7.91a1 1 0 0 0 1.14 0L28 8.91V24Z"/></svg>
-                           </span>
-                        </td>
-                        <td> 
-                            <a href="">info@itwurzel.de</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 16 16"><g fill="currentColor"><path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/><path d="M8 14a1 1 0 1 0 0-2a1 1 0 0 0 0 2"/></g></svg>
-                            </span>
-                        </td>
-                        <td>
-                            <a href="">+49 176 576 84182</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 32 32"><path fill="currentColor" d="M16 18a5 5 0 1 1 5-5a5.006 5.006 0 0 1-5 5m0-8a3 3 0 1 0 3 3a3.003 3.003 0 0 0-3-3"/><path fill="currentColor" d="m16 30l-8.436-9.949a35 35 0 0 1-.348-.451A10.9 10.9 0 0 1 5 13a11 11 0 0 1 22 0a10.9 10.9 0 0 1-2.215 6.597l-.001.003s-.3.394-.345.447ZM8.813 18.395s.233.308.286.374L16 26.908l6.91-8.15c.044-.055.278-.365.279-.366A8.9 8.9 0 0 0 25 13a9 9 0 1 0-18 0a8.9 8.9 0 0 0 1.813 5.395"/></svg>
-                            </span>
-                        </td>
-                        <td>
-                            <a href="">DE Bayern Landshut</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span>
-
-                            </span>
-                        </td>
-                       
-                    </tr>
-                </table>
-            </div>
         </div>
-        <div class="divf2">
-            <div class="divf21">Privacy Policy</div>
-            <div class="divf22">&copy; 2024 IT-WURZEL. All Rights Reserved.</div>
-            <div class="divf23">Terms of Use</div>
+    </nav>
+</header>
+
+			<div class="section-bgc intro">
+				<div class="intro-item intro-item-type-1">
+					<div id="particles-js"></div> <!-- stats - count particles --> 
+					
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<div class="intro-content" style="padding: 20px;border-radius: 5px; background-color: rgba(0, 0, 0, 0.63);">
+									<div class="section-heading shm-none">
+										<div class="section-subheading"><h3 style="background-color: white; color: black;">[ ITWURZEL ]</h3></div>
+										<h1 class="text-white">Wir finden die einzigartige Lösung ...</h1>
+										<p class="section-desc">Mit jahrzehntelanger Erfahrung konnten wir für jede Herausforderung eine einzigartige Lösung finden und unseren Kunden qualitativ hochwertige Arbeit bieten, die ihnen hilft, ihre Produktivität zu steigern</p>
+									</div>
+									<div class="btn-group intro-btns">
+										<a href="#" class="btn btn-border btn-with-icon btn-small ripple">
+											<span>Anrufen</span>
+											<svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9"><use xlink:href="assets/img/sprite.svg#arrow-right"></use></svg>
+										</a>
+										<a href="#" class="btn btn-border btn-with-icon btn-small ripple">
+											<span>E-mail</span>
+											<svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9"><use xlink:href="assets/img/sprite.svg#arrow-right"></use></svg>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<section class="section">
+				<div class="container">
+					<div class="row">
+						<header class="col-12">
+							<div class="section-heading heading-center">
+								<div class="section-subheading">Unsere experties</div>
+								<h2>Unsere Dienstleistungen</h2>
+							</div>
+						</header>
+						<div class="col-lg-4 col-md-6 col-12 item">
+							<a href="#!" class="iitem item-style iitem-hover">
+								<div class="iitem-icon">
+									<i class="material-icons material-icons-outlined md-48">support_agent</i>
+								</div>
+								<div class="iitem-icon-bg">
+									<i class="material-icons material-icons-outlined">support_agent</i>
+								</div>
+								<h3 class="iitem-heading item-heading-large">IT-Lösungen</h3>
+								<div class="iitem-desc"> Ihr Unternehmen benötigt Unterstützung beim IT-Support? Nutzen Sie die Erfahrung unseres Teams. Wir bieten das passende Paket, abhängig davon was Sie benötigen.</div>
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12 item">
+							<a href="#!" class="iitem item-style iitem-hover">
+								<div class="iitem-icon">
+									<i class="material-icons material-icons-outlined md-48">web</i>
+								</div>
+								<div class="iitem-icon-bg">
+									<i class="material-icons material-icons-outlined">web</i>
+								</div>
+								<h3 class="iitem-heading item-heading-large">Web and Software</h3>
+								<div class="iitem-desc">Wir entwickeln innovative und effiziente Web-Lösungen, die auf die spezifischen Bedürfnisse unserer Kunden zugeschnitten sind. Mit unserer Expertise helfen wir Unternehmen, ihre digitale Transformation zu beschleunigen und ihre Geschäftsziele zu erreichen.</div>
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-12 col-12 item">
+							<a href="#!" class="iitem item-style iitem-hover">
+								<div class="iitem-icon">
+									<i class="material-icons material-icons-outlined md-48">cloud_server</i>
+								</div>
+								<div class="iitem-icon-bg">
+									<i class="material-icons material-icons-outlined">cloud_server</i>
+								</div>
+								<h3 class="iitem-heading item-heading-large">Vertualisierung</h3>
+								<div class="iitem-desc">Virtualisierung ist ein Schlüsselkonzept in der modernen IT-Infrastruktur, das die Effizienz und Flexibilität von Rechenzentren erheblich verbessert <br> Citrix <br> VMware <br> Proxmox</div>
+							</a>
+						</div>
+						<div class="section-footer col-12 section-footer-animate">
+							<div class="btn-group align-items-center justify-content-center">
+								<a href="services.html" class="btn btn-with-icon btn-w240 ripple">
+									<span>See All Services</span>
+									<svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9"><use xlink:href="assets/img/sprite.svg#arrow-right"></use></svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section section-bgc">
+				<div class="container">
+					<div class="row litems">
+						<header class="col-12">
+							<div class="section-heading heading-center">
+								<div class="section-subheading">einige Gründe</div>
+								<h2>Warum Wir...?</h2>
+							</div> 
+						</header>
+						<div class="col-lg-4 col-md-6 col-12 litem">
+							<div class="ini">
+								<div class="ini-count">01</div>
+								<div class="ini-info">
+									<h3 class="ini-heading item-heading-large">Umfassende IT-Dienstleistungen</h3>
+									<div class="ini-desc">
+										<p>ITWURZEL bietet ein breites Spektrum an IT-Dienstleistungen an, darunter Webentwicklung, Softwaretechnik und Netzwerkverwaltung. Diese umfassende Expertise ermöglicht es ihnen, maßgeschneiderte Lösungen für eine Vielzahl von IT-Bedürfnissen zu liefern​</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12 litem">
+							<div class="ini">
+								<div class="ini-count">02</div>
+								<div class="ini-info">
+									<h3 class="ini-heading item-heading-large">Dedicated 24\8 <br> Support</h3>
+									<div class="ini-desc">
+										<p>Sie können sich auf unseren 24/7 technischen Support verlassen, der gerne jedes App-Problem löst, das Sie haben könnten</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12 litem">
+							<div class="ini">
+								<div class="ini-count">03</div>
+								<div class="ini-info">
+									<h3 class="ini-heading item-heading-large">Innovative Lösungen</h3>
+									<div class="ini-desc">
+										<p>Das Unternehmen ist bestrebt, innovative und zukunftssichere Lösungen anzubieten, die die digitale Transformation ihrer Kunden vorantreiben. Dies stellt sicher, dass Sie immer von den neuesten technologischen Fortschritten profitieren</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12 litem">
+							<div class="ini">
+								<div class="ini-count">04</div>
+								<div class="ini-info">
+									<h3 class="ini-heading item-heading-large">Engagement für Qualität und Innovation</h3>
+									<div class="ini-desc">
+										<p>Mit einem starken Engagement für Qualität, kontinuierliche Verbesserung und Innovation ist ITWURZEL ein vertrauenswürdiger Partner für Unternehmen, die Technologie für Wachstum und Erfolg nutzen möchten​.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12 litem">
+							<div class="ini">
+								<div class="ini-count">05</div>
+								<div class="ini-info">
+									<h3 class="ini-heading item-heading-large">Erfahrenes Team</h3>
+									<div class="ini-desc">
+										<p>ITWURZEL verfügt über ein erfahrenes Team von Webentwicklern, Softwareingenieuren und Netzwerkspezialisten, die die neuesten Technologien und Frameworks verwenden, um qualitativ hochwertige und benutzerfreundliche Lösungen zu erstellen​</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12 litem">
+							<div class="ini">
+								<div class="ini-count">06</div>
+								<div class="ini-info">
+									<h3 class="ini-heading item-heading-large">Zuverlässige Netzwerkdienste</h3>
+									<div class="ini-desc">
+										<p>ITWURZEL sorgt für eine zuverlässige und sichere Netzwerkinfrastruktur, die speziell auf die Bedürfnisse von Unternehmen aller Größen zugeschnitten ist. Dies umfasst Netzwerkdesign, -installation und laufende Unterstützung</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section section-without-padding-bottom">
+				<div class="container">
+					<div class="row items spincrement-container">
+						<div class="col-xl-3 col-md-6 col-12 item">
+							<div class="counter-min">
+								<div class="counter-min-block">
+									<div class="counter-min-ico">
+										<i class="material-icons material-icons-outlined md-36">history</i>
+									</div>
+									<div class="counter-min-numb spincrement" data-from="0" data-to="2">0</div>
+								</div>
+								<div class="counter-min-info">
+									<h4 class="counter-min-heading">Jahre Erfahrung</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-md-6 col-12 item">
+							<div class="counter-min">
+								<div class="counter-min-block">
+									<div class="counter-min-ico">
+										<i class="material-icons material-icons-outlined md-36">chat</i>
+									</div>
+									<div class="counter-min-numb spincrement" data-from="0" data-to="40">0</div>
+								</div>
+								<div class="counter-min-info">
+									<h4 class="counter-min-heading">Beratungen</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-md-6 col-12 item">
+							<div class="counter-min">
+								<div class="counter-min-block">
+									<div class="counter-min-ico">
+										<i class="material-icons material-icons-outlined md-36">assignment_ind</i>
+									</div>
+									<div class="counter-min-numb spincrement" data-from="0" data-to="10">0</div>
+								</div>
+								<div class="counter-min-info">
+									<h4 class="counter-min-heading">Arebeitnehmer</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-md-6 col-12 item">
+							<div class="counter-min">
+								<div class="counter-min-block">
+									<div class="counter-min-ico">
+										<i class="material-icons material-icons-outlined md-36">phonelink_setup</i>
+									</div>
+									<div class="counter-min-numb"><span class="spincrement" data-from="0" data-to="15">0</span></div>
+								</div>
+								<div class="counter-min-info">
+									<h4 class="counter-min-heading">top Cloud und Web Lösungen</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section">
+				<div class="container">
+					<div class="row">
+						<header class="col-12">
+							<div class="section-heading heading-center">
+								<div class="section-subheading">Bewertungen von unseren Kunden</div>
+								<h2>Was die Leute sagen</h2>
+							</div> 
+						</header>
+						<div class="col-lg-4 col-md-6 col-12 item">
+							<div class="reviews-item item-style">
+								<div class="reviews-item-header">
+									<div class="reviews-item-img">
+										<img data-src="assets/img/auth-img-1.jpg" class="img-cover lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+									</div>
+									<div class="reviews-item-info">
+										<h4 class="reviews-item-name item-heading">Catherine Williams</h4>
+										<div class="reviews-item-position">Fullstack developer</div>
+									</div>
+								</div>
+								<div class="reviews-item-text">
+									<p>
+										Ich habe ITWurzel für die Entwicklung unserer Unternehmenswebsite und Backend-Lösungen beauftragt. Das Team war äußerst professionell und hat alle unsere Anforderungen übertroffen. Besonders beeindruckt hat mich ihre Expertise in AWS und Azure. Unsere Website läuft jetzt reibungslos und die Backend-Integration ist nahtlos.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12 item">
+							<div class="reviews-item item-style">
+								<div class="reviews-item-header">
+									<div class="reviews-item-img">
+										<img data-src="assets/img/auth-img-2.jpg" class="img-cover lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+									</div>
+									<div class="reviews-item-info">
+										<h4 class="reviews-item-name item-heading">Johann Müller</h4>
+										<div class="reviews-item-position">Cloud developer</div>
+									</div>
+								</div>
+								<div class="reviews-item-text">
+									<p> 
+										ITWurzel hat uns bei der Implementierung von Citrix- und Cloud-Lösungen unterstützt. Ihre Kenntnisse in der Netzwerktechnologie und Cloud-Dienste sind hervorragend. Der gesamte Prozess war effizient und gut organisiert. Ich kann ITWurzel jedem Unternehmen empfehlen, das zuverlässige IT-Lösungen sucht
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-12 col-12 item">
+							<div class="reviews-item item-style">
+								<div class="reviews-item-header">
+									<div class="reviews-item-img">
+										<img data-src="assets/img/auth-img-3.jpg" class="img-cover lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+									</div>
+									<div class="reviews-item-info">
+										<h4 class="reviews-item-name item-heading">Lisa Becker</h4>
+										<div class="reviews-item-position">Regelmäßiger Kunde</div>
+									</div>
+								</div>
+								<div class="reviews-item-text">
+									<p>
+										ITWurzel hat unser Netzwerk optimiert und uns bei der Migration zu AWS unterstützt. Die Zusammenarbeit war von Anfang an transparent und professionell. Die neuen Systeme laufen stabil und effizient. Ich bin sehr zufrieden mit den Ergebnissen und werde ITWurzel definitiv weiterempfehlen.
+									</p>
+								</div>
+							</div>
+						</div>
+						<footer class="section-footer col-12 section-footer-animate">
+							<div class="btn-group align-items-center justify-content-center">
+								<a href="#!" class="btn btn-with-icon btn-w240 ripple">
+									<span>See All Reviews</span>
+									<svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9"><use xlink:href="assets/img/sprite.svg#arrow-right"></use></svg>
+								</a>
+							</div>
+						</footer>
+					</div>
+				</div>
+			</section>
+
+			<section class="section section-bgc">
+				<div class="container">
+					<div class="row items">
+						<header class="col-12">
+							<div class="section-heading heading-center">
+								<div class="section-subheading">Lesen Sie mehr</div>
+								<h2>letzte Nachrichten</h2>
+							</div> 
+						</header>
+						<div class="col-lg-4 col-md-6 col-12 item">
+							<article class="news-item item-style">
+								<a href="news-post.html" class="news-item-img el">
+									<img data-src="assets/img/news-img-1.jpg" class="lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+								</a>
+								<div class="news-item-info">
+									<div class="news-item-date">07/03/2024</div>
+									<h3 class="news-item-heading item-heading">
+										<a href="news-post.html" title="Benefits Of Async/Await">Vorteile von Async/Await</a>
+									</h3>
+									<div class="news-item-desc">
+										<p>Asynchrone Funktionen sind sowohl gut als auch schlecht in JavaScript.</p>
+									</div>
+								</div>
+							</article>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12 item">
+							<article class="news-item item-style">
+								<a href="news-post.html" class="news-item-img el">
+									<img data-src="assets/img/news-img-2.jpg" class="lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+								</a>
+								<div class="news-item-info">
+									<div class="news-item-date">05/01/2023</div>
+									<h3 class="news-item-heading item-heading">
+										<a href="news-post.html" title="Key Considerations Of IPaaS">Wichtige Überlegungen zu IPaaS</a>
+									</h3>
+									<div class="news-item-desc">
+										<p>Digitale Transformation erfordert eine angemessene Cloud-Adoption</p>
+									</div>
+								</div>
+							</article>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12 item">
+							<article class="news-item item-style">
+								<a href="news-post.html" class="news-item-img el">
+									<img data-src="assets/img/news-img-3.jpg" class="lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+								</a>
+								<div class="news-item-info">
+									<div class="news-item-date">01/08/2022</div>
+									<h3 class="news-item-heading item-heading">
+										<a href="news-post.html" title="Hibernate Query Language">Cloud</a>
+									</h3>
+									<div class="news-item-desc">
+										<p>Der Zugriff auf Cloud-Dienste erfordert eine zuverlässige Internetverbindung, was in Gebieten mit schlechter Konnektivität problematisch sein kann. </p>
+									</div>
+								</div>
+							</article>
+						</div>
+						<footer class="section-footer col-12 item section-footer-animate">
+							<div class="btn-group align-items-center justify-content-center">
+								<a href="news.html" class="btn btn-with-icon btn-w240 ripple">
+									<span>Schauen Sie Alle Nachrichten</span>
+									<svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9"><use xlink:href="assets/img/sprite.svg#arrow-right"></use></svg>
+								</a>
+							</div>
+						</footer>
+					</div>
+				</div>
+			</section>
+			<div class="section">
+				<div class="container">
+					<div class="row content-items">
+						<div class="col-12">
+							<div class="section-heading">
+								<div class="section-subheading">Wir sind hier zu finden</div>
+								<h1>Kontaktdaten</h1>
+							</div>
+						</div>
+						<div class="col-xl-4 col-md-5 content-item">
+							<div class="contact-info section-bgc">
+								<h3>Schreiben Sie uns</h3>
+								<ul class="contact-list">
+									<li>
+										<i class="material-icons material-icons-outlined md-22">location_on</i>
+										<div class="footer-contact-info">
+											<a href="">
+												München, Landshut 84034
+											</a>
+										</div>
+									</li>
+									<li>
+										<i class="material-icons material-icons-outlined md-22">smartphone</i>
+										<div class="footer-contact-info">
+											<a href="tel:+49 178 57684182" class="formingHrefTel">+49 176 57684182</a>
+										</div>
+									</li>
+									<li>
+										<i class="material-icons material-icons-outlined md-22">email</i>
+										<div class="footer-contact-info">
+											<a href="mailto:info@itwurzel.de">info@itwurzel.de</a>
+										</div>
+									</li>
+									<li>
+										<i class="material-icons material-icons-outlined md-22">schedule</i>
+										<div class="footer-contact-info"><p>Mon - Fri: 9:00 - 16:00</p></div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-xl-8 col-md-7 content-item">
+							<form action="#!" method="post" class="form-submission contact-form contact-form-padding" novalidate>
+								<input type="hidden" name="Subject" value="Contact form">
+								<div class="row gutters-default">
+									<div class="col-12">
+										<h3>Kontakt Form</h3>
+									</div>
+									<div class="col-xl-4 col-sm-6 col-12">
+										<div class="form-field">
+											<label for="contact-name" class="form-field-label">Name</label>
+											<input type="text" class="form-field-input" name="Name" value="" autocomplete="off" id="contact-name" required data-pristine-required-message="This field is required.">
+										</div>
+									</div>
+									<div class="col-xl-4 col-sm-6 col-12">
+										<div class="form-field">
+											<label for="contact-phone" class="form-field-label">Nummer</label>
+											<input type="tel" class="form-field-input mask-phone" name="Phone" value="" autocomplete="off" id="contact-phone" required data-pristine-required-message="This field is required.">
+										</div>
+									</div>
+									<div class="col-xl-4 col-12">
+										<div class="form-field">
+											<label for="contact-email" class="form-field-label">Email Addresse</label>
+											<input type="email" class="form-field-input" name="Email" value="" autocomplete="off" id="contact-email" required data-pristine-required-message="This field is required." data-pristine-email-message="Please enter a valid email address.">
+										</div>
+									</div>
+									<div class="col-12">
+										<div class="form-field">
+											<label for="contact-message" class="form-field-label">Ihre Nachricht</label>
+											<textarea name="Message" class="form-field-input" id="contact-message" cols="30" rows="6"></textarea>
+										</div>
+										<div class="form-btn">
+											<button type="submit" class="btn btn-w240 ripple"><span>Senden</span></button>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+<!-- Begin footer -->
+<footer class="footer footer-minimal">
+    <div class="footer-main">
+        <div class="container">
+            <div class="row items align-items-center">
+                <div class="col-lg-3 col-md-4 col-12 item">
+                    <div class="widget-brand-info">
+                        <div class="widget-brand-info-main">
+                            <a href="index.html" class="logo" title="PathSoft">
+                                <img data-src="assets/img/ITwurzel-final.png" class="lazy" width="133" height="36" src="assets/img/ITwurzel-final.png"  lt="itwuzel" data-loaded="true" style="opacity: 1;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md item">
+                    <div class="footer-item">
+                        <nav class="footer-nav">
+                            <ul class="footer-mnu footer-mnu-line">
+                                <li><a href="index.html" class="hover-link" data-title="Home"><span>Home</span></a></li>
+                                <li><a href="about-us.html" class="hover-link" data-title="About us"><span>About us</span></a></li>
+                                <li><a href="services.html" class="hover-link" data-title="Services"><span>Services</span></a></li>
+                                <li><a href="news.html" class="hover-link" data-title="News"><span>News</span></a></li>
+                                <li><a href="contacts.html" class="hover-link" data-title="Contacts"><span>Contacts</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-    
-    
-    <script src="./scripts/script.js"></script>
-    <script src="./scripts/menu.js"></script>
-    <script>
-        let x = document.getElementsByClassName("div111")[0]
-        x.style.borderBottom = "2px solid rgba(255, 255, 255)";
-    </script>
-    
-</body>
-</html>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row justify-content-between items">
+                <div class="col-md-auto col-12 item">
+                    <nav class="footer-links">
+                        <ul>
+                            <li><a href="terms-and-conditions.html">Terms and Conditions</a></li>
+                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-auto col-12 item">
+                    <div class="copyright">© 2024 ITWurzel Lösung GmbH.  All rights reserved.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer><!-- End footer -->
+
+	</main><!-- End main -->
+<script src="/assets/libs/partical/partical.js"></script>	
+<script src="assets/libs/jquery/jquery.min.js"></script>
+<script src="assets/libs/lozad/lozad.min.js"></script>
+<script src="assets/libs/device/device.js"></script>
+<script src="assets/libs/spincrement/jquery.spincrement.min.js"></script>
+<script src="assets/libs/pristine/pristine.min.js"></script>
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/forms.js"></script>
+<script>
+	
+</script>
+	
+</body></html>
