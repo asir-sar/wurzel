@@ -3498,6 +3498,6 @@ body.mmm-open .mmm {
 
 @media only screen and (min-width: 1200px) {
     .logo img{
-        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
     }
 }
