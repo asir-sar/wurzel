@@ -1,12 +1,4 @@
-/*   
-Theme Name: psFree
-Theme URI: 
-Author: Koval Web
-Author URI: https:itwurzel.de
-Description: The Template is created for web template
-Tags: html5, css3, sass, gulp, bootstrap grid
-Version: 2.0.0
-*/
+
 :root {
     --font-family: "Source Sans Pro";
     --font-size: 16px;
@@ -3498,6 +3490,6 @@ body.mmm-open .mmm {
 
 @media only screen and (min-width: 1200px) {
     .logo img{
-        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
     }
 }
